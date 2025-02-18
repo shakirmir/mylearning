@@ -17,3 +17,7 @@
 - Docker push to Docker hub repository or Azure Container registry (acr) 
 
 - Docker compose ------run all the containers from one command 
+
+### Follow the link for material ###: 
+
+ - https://directdevops.blog/devops-blog-imported-from-qt-blog/ 
