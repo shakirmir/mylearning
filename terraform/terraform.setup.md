@@ -5,7 +5,7 @@ https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-
 ### Install az cli 
 ### Install terraform 
 ### Configure your environment to run Terraform on Windows 
-Authenticate via a Microsoft account from Windows (using Bash or PowerShell) 
+    Authenticate via a Microsoft account from Windows (using Bash or PowerShell) 
     https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-bash 
 ### Create a service principal using the Azure CLI 
     https://learn.microsoft.com/en-us/azure/developer/terraform/authenticate-to-azure-with-service-principle?tabs=bash 
