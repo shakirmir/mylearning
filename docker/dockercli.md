@@ -69,10 +69,11 @@
   ```sh
   docker exec -it <container_name> sh
   ```
-  ```sh
-Getting into the running container in terminal /bin/bash: 
-docker exec  –it  <container id>  /bin/bash 
-  ```
+- Getting into the running container in terminal /bin/bash: 
+
+```sh 
+  docker exec  –it  <container id>  /bin/bash 
+```
 - **Fetch and follow the logs of a container:**  
   ```sh
   docker logs -f <container_name>
