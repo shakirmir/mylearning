@@ -1,8 +1,8 @@
 https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-bash 
 
-Pre-requisites: 
-## Install git 
-## Install az cli 
+# Pre-requisites: 
+### Install git 
+--- Install az cli 
 ## Install terraform 
 ## Configure your environment to run Terraform on Windows 
 Authenticate via a Microsoft account from Windows (using Bash or PowerShell) 
