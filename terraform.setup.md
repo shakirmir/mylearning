@@ -6,7 +6,7 @@ https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-
 3. **Install terraform** 
 4. **Configure your environment to run Terraform on Windows -setp env variable**
 5. **Authenticate via a Microsoft account from Windows (using Bash or PowerShell)**
-https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-bash
+- https://learn.microsoft.com/en-us/azure/developer/terraform/get-started-windows-bash
 6. ***Create a service principal using the Azure CLI***
 - https://learn.microsoft.com/en-us/azure/developer/terraform/authenticate-to-azure-with-service-principle?tabs=bash ```
 ```az ad sp create-for-rbac --query "{ client_id: appId, client_secret: password, tenant_id: tenant }" ```
