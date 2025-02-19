@@ -73,9 +73,7 @@ http://localhost:80
 ```
 ![Preview](docker-images-1.png)
 
-### Lab environment
-* create a docker hub account [Refer](https://app.docker.com/signup)
-
+![Preview](images/docker-images-1.png)
 
 
 
