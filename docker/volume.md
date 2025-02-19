@@ -71,9 +71,9 @@ shaki@shakir
 ```sh
 http://localhost:80
 ```
-![Preview](docker-images-1.png)
 
-![Preview](images/docker-images-1.png)
+
+![volume](images/docker-images-1.png)
 
 
 
