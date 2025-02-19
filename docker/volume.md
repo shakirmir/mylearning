@@ -71,7 +71,8 @@ shaki@shakir
 ```sh
 http://localhost:80
 ```
-![screenshot](D:\terraform-practice-lab\terraform-pipeline-150225 -github\mylearning\docker\images\docker-images-1.png)
+![Screenshot-nginx](D:\terraform-practice-lab\terraform-pipeline-150225 -github\mylearning\docker\images\docker-images-1.png)
+
 
 
 
