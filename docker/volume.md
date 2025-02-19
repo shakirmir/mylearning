@@ -7,9 +7,9 @@ docker run -v opt/nginx:/usr/share/nginx -d -p 80:80 nginx
 # persistent volume 
 -   volume which keeps the data stored in the local drive
 it is mapped to container volume , when container dies we can create a new container with same configuration
-- op/nginx = local drive volume
+- opt/nginx= local drive volume
 - /usr/share/nginx = container volume
-===========================================
+
 
 shaki@shakir MINGW64 /d/terraform-practice-lab/terraform-pipeline-150225 -github/mylearning (main)
 ```sh
@@ -71,7 +71,7 @@ shaki@shakir
 ```sh
 http://localhost:80
 ```
-![preview](docker/docker-images-1.png)
+![Preview](docker/docker-images-1.png)
 
 
 
