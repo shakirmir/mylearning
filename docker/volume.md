@@ -71,7 +71,7 @@ shaki@shakir
 ```sh
 http://localhost:80
 ```
-![Screenshot-nginx](docker/docker-images-1.png)
+![preview](docker/docker-images-1.png)
 
 
 
