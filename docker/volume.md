@@ -36,7 +36,7 @@ dd4bdf430b49   kindest/node:v1.29.8   "/usr/local/bin/entr…"   5 months ago   
 3b40a1589ec4   kindest/node:v1.29.8   "/usr/local/bin/entr…"   5 months ago    Up 27 minutes                               cka-cluster-2-worker
 5977238e30ad   kindest/node:v1.29.8   "/usr/local/bin/entr…"   5 months ago    Up 27 minutes   127.0.0.1:54258->6443/tcp   cka-cluster1-1-control-plane
 
-#   shaki@shakir MINGW64 /d/terraform-practice-lab/terraform-pipeline-150225 -github/mylearning (main)
+ shaki@shakir MINGW64 /d/terraform-practice-lab/terraform-pipeline-150225 -github/mylearning (main)
 ```sh
 curl localhost
 ```
