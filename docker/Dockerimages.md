@@ -36,4 +36,4 @@ PS D:\dotnet-sample-webapp\dotnetsample-app> docker push shakirdocker/mydotnetap
 
 Using default tag: latest
 The push refers to repository [docker.io/shakirdocker/mydotnetapp]
-```sh 
+
