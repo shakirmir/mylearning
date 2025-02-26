@@ -4,12 +4,12 @@
 * create a Dockerfile
 
 ```sh
-* create a Azure Container registry/dockerhub,login and push the image to acr
+### create a Azure Container registry/dockerhub,login and push the image to acr
 
 az acr login --name <acr-name>
 docker tag dotnetapp <acr url>/reponame
 docker push <acr url>/reponame
-```sh
+
 
 ### push docker image from local laptop to dockerhub
 * login hub.docker
@@ -17,7 +17,7 @@ docker push <acr url>/reponame
 * username: shakirdocker
 * pwd:*******
 * docker images
-```sh
+
 # tag docker image
 
 docker tag dotnetapp shakirdocker/mydotnetapp
