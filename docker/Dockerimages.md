@@ -2,8 +2,10 @@
 * setting up Docker installation in ubuntu vm
 * run the dotnet application and publish it in local vm
 * create a Dockerfile
-* create a Azure Container registry/dockerhub and push the image 
+
 ```sh
+* create a Azure Container registry/dockerhub,login and push the image to acr
+
 az acr login --name <acr-name>
 docker tag dotnetapp <acr url>/reponame
 docker push <acr url>/reponame
