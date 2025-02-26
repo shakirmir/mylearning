@@ -11,7 +11,7 @@
 * pwd:*******
 * docker images
 # tag docker image 
-** docker tag dotnetapp shakirdocker/mydotnetapp
+* docker tag dotnetapp shakirdocker/mydotnetapp
 ===================
 ** build docker image from dockerfile
 ```sh
