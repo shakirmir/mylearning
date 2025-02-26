@@ -5,11 +5,11 @@
 * create a Azure Container registry/dockerhub and push the image 
 
 ### push docker image from local laptop to dockerhub
-*** login hub.docker
-*** docker login
-username: shakirdocker
-pwd:*******
-*** docker images
+* login hub.docker
+* docker login
+* username: shakirdocker
+* pwd:*******
+* docker images
 # tag docker image 
 ** docker tag dotnetapp shakirdocker/mydotnetapp
 ===================
