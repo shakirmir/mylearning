@@ -20,7 +20,9 @@ docker push <acr url>/reponame
 #  Build docker image from Dockerfile
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker build -t dotnetapp .
 
-# Create a tag for dotnetapp with repository mydotnetapp
+### Create a tag for dotnetapp with repository mydotnetapp
+
+```sh
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker tag dotnetapp shakirdocker/mydotnetapp
 
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker images
