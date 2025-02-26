@@ -11,16 +11,16 @@
 * pwd:*******
 * docker images
 # tag docker image 
-* docker tag dotnetapp shakirdocker/mydotnetapp
-===================
-** build docker image from dockerfile
+```sh
+docker tag dotnetapp shakirdocker/mydotnetapp
+```sh
+* build docker image from dockerfile
 ```sh
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker build -t dotnetapp .
 ```sh
-** push to dockerhub
+# push to dockerhub
 ```sh
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker tag dotnetapp shakirdocker/mydotnetapp
-```sh
 ```sh
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker images
 REPOSITORY                        TAG       IMAGE ID       CREATED          SIZE
@@ -30,7 +30,6 @@ dotnetsampleapp                   dev       bdc6d179f253   23 minutes ago   217M
 mcr.microsoft.com/dotnet/aspnet   8.0       fe62ef51bc06   26 hours ago     217MB
 nginx                             latest    97662d24417b   2 weeks ago      192MB
 kindest/node                      <none>    529a3cc5dfdd   6 months ago     977MB
-```sh
 ```sh
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker push shakirdocker/mydotnetapp
 ```sh
