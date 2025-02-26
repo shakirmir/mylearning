@@ -11,19 +11,18 @@
 * pwd:*******
 * docker images
 ```sh
-tag docker image
-```sh 
-```sh
+# tag docker image
+
 docker tag dotnetapp shakirdocker/mydotnetapp
-```sh
-* build docker image from dockerfile
-```sh
+
+# build docker image from dockerfile
+
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker build -t dotnetapp .
-```sh
+
 # push to dockerhub
-```sh
+
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker tag dotnetapp shakirdocker/mydotnetapp
-```sh
+
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker images
 REPOSITORY                        TAG       IMAGE ID       CREATED          SIZE
 dotnetapp                         latest    35106557ca3a   9 minutes ago    226MB
@@ -32,9 +31,9 @@ dotnetsampleapp                   dev       bdc6d179f253   23 minutes ago   217M
 mcr.microsoft.com/dotnet/aspnet   8.0       fe62ef51bc06   26 hours ago     217MB
 nginx                             latest    97662d24417b   2 weeks ago      192MB
 kindest/node                      <none>    529a3cc5dfdd   6 months ago     977MB
-```sh
+
 PS D:\dotnet-sample-webapp\dotnetsample-app> docker push shakirdocker/mydotnetapp
-```sh
+
 Using default tag: latest
 The push refers to repository [docker.io/shakirdocker/mydotnetapp]
-
+```sh 
