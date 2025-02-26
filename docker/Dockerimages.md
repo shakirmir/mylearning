@@ -10,7 +10,9 @@
 * username: shakirdocker
 * pwd:*******
 * docker images
-# tag docker image 
+```sh
+tag docker image
+```sh 
 ```sh
 docker tag dotnetapp shakirdocker/mydotnetapp
 ```sh
