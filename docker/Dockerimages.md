@@ -3,6 +3,11 @@
 * run the dotnet application and publish it in local vm
 * create a Dockerfile
 * create a Azure Container registry/dockerhub and push the image 
+```sh
+az acr login --name <acr-name>
+docker tag dotnetapp <acr url>/reponame
+docker push <acr url>/reponame
+```sh
 
 ### push docker image from local laptop to dockerhub
 * login hub.docker
