@@ -11,15 +11,12 @@ https://github.com/LondheShubham153/kubernetes-in-one-shot
 
 ***Create a nginx pod in the namespace nginx using cmd*** 
 ```
->kubectl create ns nginx 
-
-> kubectl run nginx  - - image=nginx  -n nginx 
-
-> kubectl get pods 
-
-> kubectl get nodes 
+kubectl create ns nginx 
+kubectl run nginx  - - image=nginx  -n nginx 
+kubectl get pods 
+kubectl get nodes 
 ```
-***Create pod using manifest file or yml file ***
+***Create pod using manifest file or yml file***
 
 Pod.yml 
 
@@ -29,23 +26,22 @@ Services.yml
 
 namespace.yml 
 
- ```
-
-> kubectl apply –f namespace.yml 
-
-> kubectl cat namespace.yml 
 ```
-*** Instead of creating resources using cmd , we should use yml /manifest files so that we can keep in git repo ***
+kubectl apply –f namespace.yml 
+kubectl cat namespace.yml 
+```
+***Instead of creating resources using cmd , we should use yml /manifest files so that we can keep in git repo***
 
 Search on google for different resources as create pods and visit to official k8s documents 
 
-***login inside pods*** cmd in powershell 
+***login inside pods*** 
+cmd in powershell 
  ```
-> kubectl exec –it  nginx-pod  –n nginx  - -  bash 
-
- ***How to debug pod 
-
-> kubectl describe pod/nginx-pod  -n nginx 
+kubectl exec –it  nginx-pod  –n nginx  - -  bash 
+```
+***How to debug pod*** 
+```
+kubectl describe pod/nginx-pod  -n nginx 
 ```
 Deployment is used for scaling 
 
@@ -55,10 +51,11 @@ Rolling updates
 
 Rolling updates / version upgrade of nginx app 
 
-*** we can upgrade the nginx version in pod using cmd or changing in the yaml as well***
-```kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1```
+***we can upgrade the nginx version in pod using cmd or changing in the yaml as well***
 ```
-> kubectl set image deployment/nginx-deployment –n nginx nginx=nginx:1.27.3 
+kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1```
+```
+kubectl set image deployment/nginx-deployment –n nginx nginx=nginx:1.27.3 
 ```
  
 Replication controller – controls replica set 
@@ -67,15 +64,15 @@ We can delete pod created using pod.yml
 
 We will use deployment.yml to create  
 ```
-> kubectl get deploy –n nginx 
+kubectl get deploy –n nginx 
 
-> kubectl scale deployment/nginx-deployment  -n nginx  - - replicas=5 
+kubectl scale deployment/nginx-deployment  -n nginx  - - replicas=5 
 
-> kubectl get pods –n nginx 
+kubectl get pods –n nginx 
 
-> kubectl scale deployment/nginx-deployment  -n nginx  - - replicas=1 
+kubectl scale deployment/nginx-deployment  -n nginx  - - replicas=1 
 
-> kubectl get pods –n nginx –o wide 
+kubectl get pods –n nginx –o wide 
 ```
 Search in google  
 
