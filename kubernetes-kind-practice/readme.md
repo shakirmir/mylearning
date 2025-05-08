@@ -53,7 +53,7 @@ Rolling updates / version upgrade of nginx app
 
 ***we can upgrade the nginx version in pod using cmd or changing in the yaml as well***
 ```
-kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1```
+kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1
 ```
 kubectl set image deployment/nginx-deployment –n nginx nginx=nginx:1.27.3 
 ```
@@ -85,17 +85,15 @@ scaling
 
 Whereas replicas are for replica of pod 
 
-> kubectl delete –f deployment.yml 
+kubectl delete –f deployment.yml 
 
-> cp deployment.yml replicaset.yml 
+cp deployment.yml replicaset.yml 
 
 Vim replicaset.yml [ same as deployment few things to be changed] 
 
 Daemon set – ensures on every node pod should be running 
 
-> cp replicaset.yml daemonset.yml 
-
- 
+cp replicaset.yml daemonset.yml 
 
 Jobs : 
 
@@ -132,9 +130,9 @@ Step 4: create deployment.yml
 Step 5: create service.yml 
 
 Step 6: port forward using cmd 
-
-> kubectl port-forward service/notes-app-service  -n notes-app 8000:8000  - - address=0.0.0.0 
-
+```
+kubectl port-forward service/notes-app-service  -n notes-app 8000:8000  - - address=0.0.0.0 
+```
 Step 7: open port 8000 on ec2 security group 
 
  
@@ -143,11 +141,11 @@ Ingress
 Re-route the service traffic within cluster 
 
 ================== 
+```
+kubectl taint <node-name>  prod=true : NoSchedule  [ tainted – no pods will be schedule/created in this node] 
 
-> kubectl taint <node-name>  prod=true : NoSchedule  [ tainted – no pods will be schedule/created in this node] 
-
->  kubectl taint <node-name>  prod=true : NoSchedule-  [ - will remove the taint and make it tolerant to schedule pods in the node] 
-
+kubectl taint <node-name>  prod=true : NoSchedule-  [ - will remove the taint and make it tolerant to schedule pods in the node] 
+```
 ============================ 
 
  
