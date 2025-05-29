@@ -1,0 +1,7 @@
+D:\dotnet-sample-webapp\dotnetsample-app\bin\Release\net8.0\publish\dotnetsample-app.exe
+D:\dotnet-sample-webapp\dotnetsample-app\bin\Release\net8.0\publish\appsettings.Development.json
+D:\dotnet-sample-webapp\dotnetsample-app\bin\Release\net8.0\publish\appsettings.json
+D:\dotnet-sample-webapp\dotnetsample-app\bin\Release\net8.0\publish\dotnetsample-app.dll
+D:\dotnet-sample-webapp\dotnetsample-app\bin\Release\net8.0\publish\dotnetsample-app.deps.json
+D:\dotnet-sample-webapp\dotnetsample-app\bin\Release\net8.0\publish\dotnetsample-app.runtimeconfig.json
+D:\dotnet-sample-webapp\dotnetsample-app\bin\Release\net8.0\publish\dotnetsample-app.pdb
